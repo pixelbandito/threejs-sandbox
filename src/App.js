@@ -17,6 +17,7 @@ function App() {
   const cameraRef = useRef();
   const boxRef = useRef();
 
+  console.log('boom');
 
   useEffect(() => {
     isTurningRef.current = isTurning;
